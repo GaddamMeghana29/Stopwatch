@@ -1,0 +1,38 @@
+.watch{
+    background-image: url('https://img.freepik.com/premium-photo/white-snail-carrying-stopwatch-leaving-white-bar-text-black-background_407474-3076.jpg?w=1800');
+    background-size: cover;
+    height:100vh;
+    font-size: 64px;
+    text-align: center;
+    color:white;
+    vertical-align: middle;
+}
+.time{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 30%;
+}
+.container{
+    align-items: center;
+    height:100vh
+}
+button{
+    background-color: #4caf50;
+    text-align: center;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:center;
+    border: 4px double #cccccc; /* add this line */
+    border-radius: 10px;
+    
+    
+}
+
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: rgb(68, 172, 172);
+}
