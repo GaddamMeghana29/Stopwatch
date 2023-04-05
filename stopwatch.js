@@ -13,12 +13,12 @@ a.addEventListener('click', function(event){
     clearInterval(interval_id);     
     interval_id = setInterval(function(){
             seconds++;
-            if (seconds == 10){
+            if (seconds == 60){
                 seconds=0;
                 minutes++;
                 document.getElementById('seconds').innerHTML = "00";
             }
-            if (minutes == 2){
+            if (minutes == 60){
                 seconds=0;
                 minutes=0;
                 hours++;
